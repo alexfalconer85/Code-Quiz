@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Coding Quiz</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="assets/javascript/main.js"></script>
+
+</head>
+
+
+<body>
+    <h1>CODING QUIZ</h1>
+
+    <div class="time">
+        <div id="countdown"></div>
+    </div>
+    <form id="quiz" name="quiz" class="visible">
+
+
+        <p class="questions">What is a String?</p>
+        <input class="selection" type="radio" id="mc" name="question1" value="Correct1"> Stores a series of
+        characters<br>
+        <input class="selection" type="radio" id="mc" name="question1" value="Incorrect1"> A function<br>
+        <!-- <input id = "textbox" type = "text" name = "question1"> -->
+
+        <p class="questions">What is an array?</p>
+        <input type="radio" id="mc" name="question2" value="Inorrect2"> A collection of functions<br>
+        <input type="radio" id="mc" name="question2" value="Correct2"> A group of elements<br>
+
+        <p class="questions">What does HTML stand for?</p>
+        <input type="radio" id="mc" name="question3" value="Correct3"> Hyper Text Markup Language<br>
+        <input type="radio" id="mc" name="question3" value="Incorrect3"> Hilarious Talk Making (you) Laugh<br>
+
+        <p class="questions">What is Bootstrap?</p>
+        <input type="radio" id="mc" name="question4" value="Incorrect4"> Holds your boots on<br>
+        <input type="radio" id="mc" name="question4" value="Correct4"> A front-end framework<br>
+
+        <p class="questions">What is jQuery?</p>
+        <input type="radio" id="mc" name="question5" value="Correct5"> Fast, feature-rich JS Library<br>
+        <input type="radio" id="mc" name="question5" value="Incorrect5"> A question posed as a joke<br>
+
+
+        <input id="button" type="button" value="I'm finished!" onclick="check();">
+        <!-- <a id="button" type="button" href="results.html">I'm finished!</a> -->
+
+    </form>
+
+    <div id="after_submit">
+        <h5>YOUR SCORE</h5>
+        <p id="number_correct"></p>
+        <p id="message"></p>
+
+    </div>
+    <div id="high_scores">
+        <h5>HIGH SCORES</h5>
+        <ol id="each_score"></ol>
+
+
+        <input id="button" type="button" value="Play Again" onclick="playAgain();">
+    </div>
+
+</html>
+
+</body>

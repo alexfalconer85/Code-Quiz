@@ -1,0 +1,104 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url("https://pixelz.cc/wp-content/uploads/2018/08/sand-texture-uhd-4k-wallpaper.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+h1 {
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#quiz {
+	margin-left: 10px;
+	background: #d2f2ea9f;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+
+#countdown {
+	font-size: 30px;
+}
+
+#textbox {
+	height: 25px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 5px;
+}
+
+/* button format */
+#button {
+	background: green;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
+}
+
+/* what happens to finish button when hovered over */
+#button:hover {
+	background: rgb(253, 2, 2);
+	border: 1px solid green;
+	color: rgb(253, 253, 253);
+	cursor: pointer;
+
+}
+
+h5 {
+	text-align: center;
+	font-style: oblique;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#after_submit {
+	visibility: hidden;
+	background: #d2f2ea9f;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+
+
+}
+
+#high_scores {
+	visibility: hidden;
+	background: #37f580a2;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+
+
+}
+
+#picture {
+	width: 375px;
+	height: 245px;
+}
+
+
+
+#mc {
+	display: inline;
+}
